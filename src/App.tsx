@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import LoginPage from './Components/Login';
+import LoginPage from './Components/Login/Login';
 
 function App() {
   return (
