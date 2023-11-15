@@ -5,8 +5,8 @@ import os
 app = Flask(__name__)
 app.secret_key = os.urandom(24)
 
-consumer_key = 'L0zGioiAyiByOVJhbut9RprSg'  
-consumer_secret = 'TNhrFkclBv7MknhoIFgmQj5e4ZwlQugqaq7Y1rRWobqfTdI0g5'  
+consumer_key = '9Io2iNXcoTEOm9UZdM19xx39h'  
+consumer_secret = 'b4f9lNO9qtlo7Ce8XjPm2qoF03WDR8qUPKjGBOZCiSh26EX5th'  
 
 @app.route('/')
 def home():

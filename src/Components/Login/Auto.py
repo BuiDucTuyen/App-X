@@ -32,7 +32,7 @@ if __name__ == "__main__":
     driver = webdriver.Chrome()
 
     try:
-        driver.get('https://twitter.com/Beatver136')
+        driver.get('https://twitter.com/xavierchar96890')
         follow_users(driver)
     except Exception as e:
         print(f"An error occurred: {str(e)}")
